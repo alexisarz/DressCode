@@ -1,0 +1,113 @@
+[
+    {
+        "id":1,
+        "img":"https://cf.shopee.ph/file/95835f1d1bebf0971c1cf35e6c3ad9bb",
+        "name":"Example Cloth",
+        "price":"$999",
+        "genre":"f",
+        "trending": true
+
+    },
+
+    {
+        "id":2,
+        "img":"https://cf.shopee.ph/file/95835f1d1bebf0971c1cf35e6c3ad9bb",
+        "name":"Example Cloth",
+        "price":"$111",
+        "genre":"f",
+        "trending": true
+
+    },
+
+    {
+        "id":3,
+        "img":"https://cf.shopee.ph/file/95835f1d1bebf0971c1cf35e6c3ad9bb",
+        "name":"Example Cloth",
+        "price":"$222",
+        "genre":"f",
+        "trending": false
+
+    },
+
+    {
+        "id":4,
+        "img":"https://cf.shopee.ph/file/95835f1d1bebf0971c1cf35e6c3ad9bb",
+        "name":"Example Cloth",
+        "price":"$455",
+        "genre":"f",
+        "trending": true
+
+    },
+
+    {
+        "id":5,
+        "img":"https://cf.shopee.ph/file/95835f1d1bebf0971c1cf35e6c3ad9bb",
+        "name":"Example Cloth",
+        "price":"$567",
+        "genre":"f",
+        "trending": false
+
+    },
+
+    {
+        "id":6,
+        "img":"https://cf.shopee.ph/file/95835f1d1bebf0971c1cf35e6c3ad9bb",
+        "name":"Example Cloth",
+        "price":"$567",
+        "genre":"f",
+        "trending": false
+
+    },
+
+    {
+        "id":7,
+        "img":"https://5.imimg.com/data5/LU/MJ/PS/IOS-89671167/product-jpeg-500x500.png",
+        "name":"Example Cloth",
+        "price":"$999",
+        "genre":"m",
+        "trending": true
+
+    },
+
+    {
+        "id":8,
+        "img":"https://5.imimg.com/data5/LU/MJ/PS/IOS-89671167/product-jpeg-500x500.png",
+        "name":"Example Cloth",
+        "price":"$111",
+        "genre":"m",
+        "trending": true
+
+    },
+
+    {
+        "id":9,
+        "img":"https://5.imimg.com/data5/LU/MJ/PS/IOS-89671167/product-jpeg-500x500.png",
+        "name":"Example Cloth",
+        "price":"$222",
+        "genre":"m",
+        "trending": false
+
+    },
+
+    {
+        "id":10,
+        "img":"https://5.imimg.com/data5/LU/MJ/PS/IOS-89671167/product-jpeg-500x500.png",
+        "name":"Example Cloth",
+        "price":"$455",
+        "genre":"m",
+        "trending": false
+
+    },
+
+    {
+        "id":11,
+        "img":"https://5.imimg.com/data5/LU/MJ/PS/IOS-89671167/product-jpeg-500x500.png",
+        "name":"Example Cloth",
+        "price":"$567",
+        "genre":"m",
+        "trending": true
+
+    }
+
+    
+]
