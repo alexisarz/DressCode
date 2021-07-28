@@ -20,7 +20,7 @@ function Nav(){
                                 className={(window.innerWidth > 768)? "d-none" : "text-white fs-4"}
                         />
                         <ul className={(window.innerWidth > 768)? "navbar-nav me-auto mb-2 mb-lg-0" : "d-none"}>
-                            <Link to="/DressCode" style={{ textDecoration: 'none' }}>
+                            <Link to="/" style={{ textDecoration: 'none' }}>
                                 <li className="nav-item nav-link active btn fw-bold">Home</li>
                             </Link>
                             <li className="nav-item nav-link btn fw-bold">Women</li>

@@ -6,7 +6,7 @@ import HomeScreen from './component/homeScreen'
 import ProductScreen from './component/productScreen';
 import Footer from './component/common/footer';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -22,10 +22,10 @@ function App() {
           <Nav/>
         </div>
         <Switch>
-          <Route exact path="/DressCode">
+          <Route exact path="/">
             <HomeScreen/>
           </Route>
-          <Route exact path="/DressCode/#/product/#/:_id">
+          <Route exact path="/product/:_id">
             <ProductScreen/>
           </Route>
         </Switch>
