@@ -25,7 +25,7 @@ function App() {
           <Route exact path="/DressCode">
             <HomeScreen/>
           </Route>
-          <Route exact path="/DressCode/product/:_id">
+          <Route exact path="/DressCode/#/product/#/:_id">
             <ProductScreen/>
           </Route>
         </Switch>
