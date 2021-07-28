@@ -12,7 +12,7 @@ function Trending(){
         <Router>
         <div>
             <div className="d-flex text-center justify-content-center gap-5 my-3">
-                <Link to="/"><h4 className="btn border-bottom">WOMEN</h4></Link>
+                <Link to="/#/"><h4 className="btn border-bottom">WOMEN</h4></Link>
                 <Link to="/trending-men"><h4 className="btn border-bottom">MEN</h4></Link>
             </div>
             <Switch>

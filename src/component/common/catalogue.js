@@ -11,7 +11,7 @@ function Catalogue(props){
                         
                         if(genre === props.genreprop && trending === props.trendingprop){
 
-                            return( <a href={`/product/${id}`}key={id}><ArticleCard name={name} img={img} price={price} /></a>)
+                            return( <a href={`/#/product/${id}`}key={id}><ArticleCard name={name} img={img} price={price} /></a>)
                             
                         }
                     })}
