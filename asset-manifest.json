@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DressCode/static/css/main.42afaea9.chunk.css",
-    "main.js": "/DressCode/static/js/main.a2f27fec.chunk.js",
-    "main.js.map": "/DressCode/static/js/main.a2f27fec.chunk.js.map",
+    "main.js": "/DressCode/static/js/main.74faa03c.chunk.js",
+    "main.js.map": "/DressCode/static/js/main.74faa03c.chunk.js.map",
     "runtime-main.js": "/DressCode/static/js/runtime-main.66632de0.js",
     "runtime-main.js.map": "/DressCode/static/js/runtime-main.66632de0.js.map",
     "static/css/2.afc40694.chunk.css": "/DressCode/static/css/2.afc40694.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.afc40694.chunk.css",
     "static/js/2.3bc23fe7.chunk.js",
     "static/css/main.42afaea9.chunk.css",
-    "static/js/main.a2f27fec.chunk.js"
+    "static/js/main.74faa03c.chunk.js"
   ]
 }
