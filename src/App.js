@@ -22,7 +22,7 @@ function App() {
           <Nav/>
         </div>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/DressCode">
             <HomeScreen/>
           </Route>
           <Route exact path="/product/:_id">
