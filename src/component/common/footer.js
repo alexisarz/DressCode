@@ -16,7 +16,7 @@ function Footer(){
                     <FontAwesomeIcon icon={faTwitterSquare}/>
                 </li>
             </ul>
-            <p>by alexisarz</p>
+            <p className={(window.innerWidth > 413)? "mx-4" : "d-none"}>by alexisarz</p>
         </div>
     )
 }

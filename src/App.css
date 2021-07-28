@@ -23,6 +23,17 @@
   text-shadow: -1px -1px 0 rgb(250, 253, 70), 1px -1px 0 rgb(151, 151, 151), -1px 1px 0 rgb(151, 151, 151), 1px 1px 0 rgb(150, 150, 150);
 }
 
+@media (max-width: 414px){
+  .img-fit{
+    height:300px
+  }
+
+  .test{
+    margin-bottom: 50px;
+    
+  }
+}
+
 /*GENRE CATALOGUE*/
 .genre-select{
   height: 500px;
@@ -109,3 +120,29 @@ a:hover {
   object-fit: cover;
 }
 
+@media (max-width: 768px){
+  .product-details-img{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 414px){
+  .product-details-img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* RESPONSIVE NAV*/
+
+
+.responsive-nav-hidden{
+  transform:translateX(-200px);
+  transition: .5s
+}
+
+.responsive-nav-show{
+  transform:translateX(-45px);
+  transition: .5s;
+}

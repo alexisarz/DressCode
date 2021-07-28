@@ -14,7 +14,7 @@ function ProductScreen(){
                         
                         if(id === idn){
 
-                            return(<ProductTemplate name={name} img={img} price={price}/>)
+                            return(<ProductTemplate name={name} img={img} price={price} key={id}/>)
 
                         }})}
         </div>

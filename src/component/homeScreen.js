@@ -17,11 +17,11 @@ function HomeScreen(){
             <div className="d-flex w-75 m-auto gap-4 my-5">
                 <div className="container">
                     <img 
-                        className="w-100 d-block genre-select"
+                        className={(window.innerWidth > 414)? "w-100 d-block genre-select" : "w-100 h-75 d-block genre-select"}
                         src="https://i.pinimg.com/736x/dc/01/3d/dc013dc46c933fc1c4565a3db808ac86.jpg"
                         alt="Women Pic" 
                     />
-                    <div className="overlay">
+                    <div className={(window.innerWidth > 414)? "overlay" : "d-none"}>
                         <div className="text">
                             <h4 className="border p-4">
                                 show catalogue 
@@ -39,11 +39,11 @@ function HomeScreen(){
                 </div>
                 <div className="container">
                     <img 
-                        className="w-100 d-block genre-select"
+                        className={(window.innerWidth > 414)? "w-100 d-block genre-select" : "w-100 h-75 d-block genre-select"}
                         src="https://i.pinimg.com/originals/b8/58/9f/b8589f583e4f4174ecdd3bf171c21c1b.jpg"
                         alt="Men Pic" 
                     />
-                    <div className="overlay">
+                    <div className={(window.innerWidth > 414)? "overlay" : "d-none"}>
                         <div className="text">
                             <h4 className="border p-4">
                                 show catalogue 

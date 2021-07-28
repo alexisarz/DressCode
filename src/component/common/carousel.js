@@ -13,7 +13,10 @@ function CarouselContainer(props) {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3 className="text-black fw-bolder border border-2 p-5 shadow-sm  test fs-1">SUMMER SEASON</h3>
+                        <h3 className={(window.innerWidth > 414)? "text-black fw-bolder border border-2 p-5 shadow-sm test fs-1" : 
+                                                                  "text-black fw-bolder border border-2 p-4 shadow-sm test fs-2" }>
+                                SUMMER SEASON
+                        </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={4000}>
@@ -24,7 +27,10 @@ function CarouselContainer(props) {
                     />
 
                     <Carousel.Caption>
-                        <h3 className="text-black fw-bolder border border-2 p-5 shadow-sm  test fs-1">go to the beach.</h3>
+                        <h3 className={(window.innerWidth > 414)? "text-black fw-bolder border border-2 p-5 shadow-sm test fs-1" : 
+                                                                  "text-black fw-bolder border border-2 p-4 shadow-sm test fs-2"}>
+                                go to the beach.
+                        </h3>
                         
                     </Carousel.Caption>
                 </Carousel.Item>
